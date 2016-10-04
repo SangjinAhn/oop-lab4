@@ -15,6 +15,7 @@ public class Calculator {
 		
 		result = x-y;
 		return result;
+		
 	}
 	
 	public double multiply(double x, double y){
