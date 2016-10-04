@@ -12,7 +12,7 @@ public class Calculator {
 	
 	public double subtract(double x, double y){
 		double result;
-		
+		//hongki
 		
 		result = x-y;
 		return result;
