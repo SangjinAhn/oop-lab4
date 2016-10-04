@@ -31,12 +31,12 @@ public class Calculator {
 		return result;
 	}
 	
-	//public int remainder(double x, double y){
-	//	int result;
+	public double remainder(double x, double y){
+		double result;
+		result = x%y;
 		
-		//result = a%b;
-		//return result;
-	//}
+		return result;
+	}
 	
 
 	
