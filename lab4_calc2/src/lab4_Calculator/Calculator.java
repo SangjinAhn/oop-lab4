@@ -36,7 +36,21 @@ public class Calculator {
 	public static void main(String args[])
 	
 	{
+		double num1=3;
+		double num2=5;
 		
+		Calculator cal = new Calculator();
+		double r1 = cal.add(num1,  num2);
+		double r2 = cal.subtract(num1, num2);
+		double r3 = cal.divide(num1, num2);
+		double r4 = cal.multiply(num1,  num2);
+		double r5 = cal.remainder(num1, num2);
+	
+			System.out.printf("%f + %f = %f", num1, num2, r1);
+			System.out.printf("%f - %f = %f", num1, num2, r2);
+			System.out.printf("%f / %f = %f", num1, num2, r3);
+			System.out.printf("%f *  %f = %f", num1, num2, r4);
+			System.out.printf("%f %  %f = %f", num1, num2, r5);
 		
 		
 		
