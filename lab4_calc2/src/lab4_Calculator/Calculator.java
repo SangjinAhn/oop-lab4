@@ -25,17 +25,17 @@ public class Calculator {
 	public double divide(double x, double y){
 		double result;
 		result = x/y;
-		if(x=0)
+		if(x==0)
 			System.out.println("You can divide by zero");
 		return result;
 	}
 	
-	public int remainder(double x, double y){
-		int result;
+	//public int remainder(double x, double y){
+	//	int result;
 		
-		result = a%b;
-		return result;
-	}
+		//result = a%b;
+		//return result;
+	//}
 	
 
 	
