@@ -6,10 +6,14 @@ public class Calculator {
 	
 	
 	public double add(double x, double y){
-		
-		return 0;
+		double result=x+y;
+		return result;
 	} 
-	
+	public String toString(){
+		String allMembers="{Leader:SangJinAhn(Sangjin9988), Programmer1:YooJinBae(youjinbae), Programmer2:SungWookHong(brood1346), http://github.com/SangjinAhn/oop-lab4 }"
+		
+		return allMembers;
+	}
 	
 	public double subtract(double x, double y){
 		
