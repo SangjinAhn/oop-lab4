@@ -11,7 +11,7 @@ public class Calculator {
 	} 
 	public String toString(){
 		String allMembers="{Leader:SangJinAhn(Sangjin9988), Programmer1:YooJinBae(youjinbae), Programmer2:SungWookHong(brood1346), http://github.com/SangjinAhn/oop-lab4 }";
-		//bae1
+		//bae2
 		return allMembers;
 	}
 	
