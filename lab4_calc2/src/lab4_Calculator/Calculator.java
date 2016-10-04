@@ -10,7 +10,7 @@ public class Calculator {
 		return result;
 	} 
 	public String toString(){
-		String allMembers="{Leader:SangJinAhn(Sangjin9988), Programmer1:YooJinBae(youjinbae), Programmer2:SungWookHong(brood1346), http://github.com/SangjinAhn/oop-lab4 }"
+		String allMembers="{Leader:SangJinAhn(Sangjin9988), Programmer1:YooJinBae(youjinbae), Programmer2:SungWookHong(brood1346), http://github.com/SangjinAhn/oop-lab4 }";
 		
 		return allMembers;
 	}
