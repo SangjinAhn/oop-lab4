@@ -6,14 +6,16 @@ public class Calculator {
 	
 	
 	public double add(double x, double y){
-		
 		return 0;
 	} 
 	
 	
 	public double subtract(double x, double y){
+		double result;
 		
-		return 0;
+		result = x-y;
+		return result;
+		
 	}
 	
 	public double multiply(double x, double y){
@@ -22,14 +24,19 @@ public class Calculator {
 	}
 	
 	public double divide(double x, double y){
-		
-		return 0;
+		double result;
+		result = x/y;
+		if(x==0)
+			System.out.println("You can divide by zero");
+		return result;
 	}
 	
-	public double remainder(double x, double y){
+	//public int remainder(double x, double y){
+	//	int result;
 		
-		return 0;
-	}
+		//result = a%b;
+		//return result;
+	//}
 	
 
 	
